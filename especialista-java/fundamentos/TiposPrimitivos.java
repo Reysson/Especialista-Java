@@ -27,7 +27,7 @@ public class TiposPrimitivos {
         long meuDinheiro = 515151484231212L;
 
         /*Para números decimais, automaticamente o java reconhece o double como número decimal, por isso
-         no floar é necessário colocar a letra 'f'
+         no float é necessário colocar a letra 'f'
          */
         double peso = 84.9;
         float peso2 = 72.15F;
