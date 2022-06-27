@@ -24,9 +24,13 @@ public class TiposPrimitivos {
         //int populacaoUberlandia2 = 2_147_483_648; não compila
 
         //long armazena valores inteiros de 0 9,223372037×10¹⁸: Tamanho 64 bits (8 bytes), Menor valor: -2^63, Maior valor: 2^63 - 1
-        long meuDinheiro = 515151484231212115618484515689486;
+        long meuDinheiro = 515151484231212L;
 
-
+        /*Para números decimais, automaticamente o java reconhece o double como número decimal, por isso
+         no floar é necessário colocar a letra 'f'
+         */
+        double peso = 84.9;
+        float peso2 = 72.15F;
 
     }
 }
