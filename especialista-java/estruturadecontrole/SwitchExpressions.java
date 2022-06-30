@@ -24,7 +24,7 @@ public class SwitchExpressions {
             default -> "Dia inválido";
         });
 
-        /*
+        /* O uso do default aqui é obrigatório, pela atribuição a uma variável
         String horarioFuncionamento = switch (diaSemana) {
           case "seg" -> "Fechado";
           case "ter", "qua", "qui", "sex" -> "08:00 às 18:00";
