@@ -1,5 +1,9 @@
+import java.util.Scanner
+
 public class SwitchExpressions {
+
     public static void main(String[] args) {
+        //java 14
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Dia da semana (ex: seg, ter, qua, etc): ");
